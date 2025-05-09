@@ -4,180 +4,150 @@
     <meta charset="UTF-8">
     <title>Catálogo de Productos - PROMED</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f8f8f8;
-        }
-        .logo {
-            width: 200px;
-            margin-top: 20px;
-        }
-        .catalogo {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-        }
-        .producto {
-            background: white;
-            border-radius: 10px;
-            margin: 10px;
-            padding: 10px;
-            width: 180px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .producto img {
-            width: 100%;
-            height: 120px;
-            object-fit: cover;
-        }
-        h1 {
-            margin-top: 20px;
-            color: #990000;
-        }
+        body { font-family: Arial, sans-serif; background: #f8f8f8; text-align: center; }
+        .logo { width: 150px; margin-top: 20px; }
+        h1 { margin-top: 10px; }
+        .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 40px auto; max-width: 1200px; }
+        .card { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 0 5px rgba(0,0,0,0.1); width: 180px; }
+        .card img { width: 100%; height: 120px; object-fit: contain; }
+        .card-title { margin-top: 10px; font-weight: bold; font-size: 14px; }
     </style>
 </head>
 <body>
-    <img src="imagenes-productos/logo.jpg" class="logo" alt="Logo PROMED">
-    <h1>Catálogo de Productos - PROMED</h1>
-    <div class="catalogo">
-
-        <div class="producto">
-            <img src="imagenes-productos/Anillo Rotuliano.jpg" alt="Anillo Rotuliano.jpg">
-            <p>Anillo Rotuliano.jpg</p>
+    <img src="imagenes-productos/logo.jpg" alt="Logo Promed" class="logo">
+    <h1>Catálogo de Productos <strong>PROMED</strong></h1>
+    <div class="grid">
+        <div class="card">
+            <img src="imagenes-productos/Anillo_Rotuliano.jpg" alt="Anillo Rotuliano">
+            <div class="card-title">Anillo Rotuliano</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Anillo Subrotuliano Con Hilado De Cobre.jpg" alt="Anillo Subrotuliano Con Hilado De Cobre.jpg">
-            <p>Anillo Subrotuliano Con Hilado De Cobre.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Anillo_Subrotuliano_Con_Hilado_De_Cobre.jpg" alt="Anillo Subrotuliano Con Hilado De Cobre">
+            <div class="card-title">Anillo Subrotuliano Con Hilado De Cobre</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Anillo Subrotuliano.jpg" alt="Anillo Subrotuliano.jpg">
-            <p>Anillo Subrotuliano.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Articulacion_Libre.jpg" alt="Articulacion Libre">
+            <div class="card-title">Articulacion Libre</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Articulacion Libre.jpg" alt="Articulacion Libre.jpg">
-            <p>Articulacion Libre.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Bastones.jpg" alt="Bastones">
+            <div class="card-title">Bastones</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Bastones.jpg" alt="Bastones.jpg">
-            <p>Bastones.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Camilla_Portatil_Tipo_Maletin.jpg" alt="Camilla Portatil Tipo Maletin">
+            <div class="card-title">Camilla Portatil Tipo Maletin</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Camilla Portatil Tipo Maletin.jpg" alt="Camilla Portatil Tipo Maletin.jpg">
-            <p>Camilla Portatil Tipo Maletin.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Electroestimulador.jpg" alt="Electroestimulador">
+            <div class="card-title">Electroestimulador</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Electroestimulador.jpg" alt="Electroestimulador.jpg">
-            <p>Electroestimulador.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Hombrera_Universal.jpg" alt="Hombrera Universal">
+            <div class="card-title">Hombrera Universal</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Hombrera Universal.jpg" alt="Hombrera Universal.jpg">
-            <p>Hombrera Universal.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Insumos_Masoterapia.jpg" alt="Insumos Masoterapia">
+            <div class="card-title">Insumos Masoterapia</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Insumos Masoterapia.jpg" alt="Insumos Masoterapia.jpg">
-            <p>Insumos Masoterapia.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Manta_Electrica.jpg" alt="Manta Electrica">
+            <div class="card-title">Manta Electrica</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Manta Electrica.jpg" alt="Manta Electrica.jpg">
-            <p>Manta Electrica.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Masajeador_Electrico_Relax.jpg" alt="Masajeador Electrico Relax">
+            <div class="card-title">Masajeador Electrico Relax</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Masajeador Electrico Relax.jpg" alt="Masajeador Electrico Relax.jpg">
-            <p>Masajeador Electrico Relax.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Media_Cadera_De_Compresion.jpg" alt="Media Cadera De Compresion">
+            <div class="card-title">Media Cadera De Compresion</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Media Cadera De Compresion.jpg" alt="Media Cadera De Compresion.jpg">
-            <p>Media Cadera De Compresion.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Media_Muslo_Para_Varice.jpg" alt="Media Muslo Para Varice">
+            <div class="card-title">Media Muslo Para Varice</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Media Muslo Para Varice.jpg" alt="Media Muslo Para Varice.jpg">
-            <p>Media Muslo Para Varice.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Media_Para_Varice_Blanca.jpg" alt="Media Para Varice Blanca">
+            <div class="card-title">Media Para Varice Blanca</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Media Para Varice Blanca.jpg" alt="Media Para Varice Blanca.jpg">
-            <p>Media Para Varice Blanca.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Medias_De_Compresion.jpg" alt="Medias De Compresion">
+            <div class="card-title">Medias De Compresion</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Medias De Compresion.jpg" alt="Medias De Compresion.jpg">
-            <p>Medias De Compresion.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Mesa_De_Mayo.jpg" alt="Mesa De Mayo">
+            <div class="card-title">Mesa De Mayo</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Mesa De Mayo.jpg" alt="Mesa De Mayo.jpg">
-            <p>Mesa De Mayo.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Mesa_Hospitalaria.jpg" alt="Mesa Hospitalaria">
+            <div class="card-title">Mesa Hospitalaria</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Mesa Hospitalaria.jpg" alt="Mesa Hospitalaria.jpg">
-            <p>Mesa Hospitalaria.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Muleta_En_Aluminio_Para_Adulto_Y_Niños_Par.jpg" alt="Muleta En Aluminio Para Adulto Y Niños Par">
+            <div class="card-title">Muleta En Aluminio Para Adulto Y Niños Par</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Muleta En Aluminio Para Adulto Y Niños Par.jpg" alt="Muleta En Aluminio Para Adulto Y Niños Par.jpg">
-            <p>Muleta En Aluminio Para Adulto Y Niños Par.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Muletas_Baston_Candiens.jpg" alt="Muletas Baston Candiens">
+            <div class="card-title">Muletas Baston Candiens</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Muletas Baston Candiensse.jpg" alt="Muletas Baston Candiensse.jpg">
-            <p>Muletas Baston Candiensse.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Repuestos_Para_Muletas.jpg" alt="Repuestos Para Muletas">
+            <div class="card-title">Repuestos Para Muletas</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Repuestos Para Muletas.jpg" alt="Repuestos Para Muletas.jpg">
-            <p>Repuestos Para Muletas.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Rodillera_Rotula_Abierta.jpg" alt="Rodillera Rotula Abierta">
+            <div class="card-title">Rodillera Rotula Abierta</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Rodillera Rotula Abierta.jpg" alt="Rodillera Rotula Abierta.jpg">
-            <p>Rodillera Rotula Abierta.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Rodillera_Rotula_Cerrada.jpg" alt="Rodillera Rotula Cerrada">
+            <div class="card-title">Rodillera Rotula Cerrada</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Rodillera Rotula Cerrada.jpg" alt="Rodillera Rotula Cerrada.jpg">
-            <p>Rodillera Rotula Cerrada.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Rotula_Abierta.jpg" alt="Rotula Abierta">
+            <div class="card-title">Rotula Abierta</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Rotula Abierta.jpg" alt="Rotula Abierta.jpg">
-            <p>Rotula Abierta.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Silla_De_Ruedas.jpg" alt="Silla De Ruedas">
+            <div class="card-title">Silla De Ruedas</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Silla De Ruedas.jpg" alt="Silla De Ruedas.jpg">
-            <p>Silla De Ruedas.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Silla_Sanitaria.jpg" alt="Silla Sanitaria">
+            <div class="card-title">Silla Sanitaria</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Silla Sanitaria.jpg" alt="Silla Sanitaria.jpg">
-            <p>Silla Sanitaria.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Tensiómetro_Digital_Con_Altavoz.jpg" alt="Tensiómetro Digital Con Altavoz">
+            <div class="card-title">Tensiómetro Digital Con Altavoz</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Tensiometro Digital Con Altavoz.jpg" alt="Tensiometro Digital Con Altavoz.jpg">
-            <p>Tensiometro Digital Con Altavoz.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Tensiómetro_Digital.jpg" alt="Tensiómetro Digital">
+            <div class="card-title">Tensiómetro Digital</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Tensiometro Digital.jpg" alt="Tensiometro Digital.jpg">
-            <p>Tensiometro Digital.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Tobilleras.jpg" alt="Tobilleras">
+            <div class="card-title">Tobilleras</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Tobilleras.jpg" alt="Tobilleras.jpg">
-            <p>Tobilleras.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Baston_Plegable_Bronce.jpg" alt="Baston Plegable Bronce">
+            <div class="card-title">Baston Plegable Bronce</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Baston Plegable Bronce.jpg" alt="Baston Plegable Bronce.jpg">
-            <p>Baston Plegable Bronce.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Cabestrillo.jpg" alt="Cabestrillo">
+            <div class="card-title">Cabestrillo</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Cabestrillo.jpg" alt="Cabestrillo.jpg">
-            <p>Cabestrillo.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Electrodos_Fisioterapia.jpg" alt="Electrodos Fisioterapia">
+            <div class="card-title">Electrodos Fisioterapia</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Electrodos Fisioterapia.jpg" alt="Electrodos Fisioterapia.jpg">
-            <p>Electrodos Fisioterapia.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Kit_De_Fonendo_Y_Tensiómetro.jpg" alt="Kit De Fonendo Y Tensiómetro">
+            <div class="card-title">Kit De Fonendo Y Tensiómetro</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Kit De Fonendo Y Tensiometro.jpg" alt="Kit De Fonendo Y Tensiometro.jpg">
-            <p>Kit De Fonendo Y Tensiometro.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Masajeador_Muscular_Electrico_Pistola_Calor_Frio.jpg" alt="Masajeador Muscular Electrico Pistola Calor Frio">
+            <div class="card-title">Masajeador Muscular Electrico Pistola Calor Frio</div>
         </div>
-        <div class="producto">
-            <img src="imagenes-productos/Masajeador Muscular Electrico Pistola Calor Frio.jpg" alt="Masajeador Muscular Electrico Pistola Calor Frio.jpg">
-            <p>Masajeador Muscular Electrico Pistola Calor Frio.jpg</p>
-        </div>
-        <div class="producto">
-            <img src="imagenes-productos/Masajeador Neo Sens Corporal.jpg" alt="Masajeador Neo Sens Corporal.jpg">
-            <p>Masajeador Neo Sens Corporal.jpg</p>
+        <div class="card">
+            <img src="imagenes-productos/Masajeador_Neo_Sens_Corporal.jpg" alt="Masajeador Neo Sens Corporal">
+            <div class="card-title">Masajeador Neo Sens Corporal</div>
         </div>
     </div>
 </body>
